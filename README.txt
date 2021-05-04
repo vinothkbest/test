@@ -4,3 +4,5 @@
 4) locate: http://localhost/test/public/ for registering
 5) locate: http://localhost/test/public/login for login
 6) after login, locate: http://localhost/test/public/employees for viewing and taking reports by admin and logout
+
+Node: CDN is used for js, css. please ensure internet
