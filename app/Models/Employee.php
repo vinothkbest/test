@@ -2,15 +2,11 @@
 
 namespace App\Models;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
-class Employee extends Authenticatable
+class Employee extends Model
 {
-    use HasFactory, Notifiable;
-
     protected $fillable = [
         'name',
         'mobile',

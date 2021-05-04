@@ -10,7 +10,7 @@
         		</a>
         	</div>
         	<div class="welcome">
-        		Welcome {{ Auth::user()->name ?? '' }}
+        		Welcome {{ session('user')?? '' }}
         	</div>
         	<div class="logout">
         		<a href="{{ route('logout') }}">
